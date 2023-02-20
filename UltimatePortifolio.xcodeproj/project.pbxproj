@@ -7,19 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8A6916C29A397BC006B82B1 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A6916B29A397BC006B82B1 /* Filter.swift */; };
 		F8E4B7C4299FBE6200107884 /* UltimatePortifolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4B7C3299FBE6200107884 /* UltimatePortifolioApp.swift */; };
 		F8E4B7C6299FBE6200107884 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4B7C5299FBE6200107884 /* ContentView.swift */; };
 		F8E4B7C8299FBE6300107884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E4B7C7299FBE6300107884 /* Assets.xcassets */; };
 		F8E4B7CC299FBE6300107884 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8E4B7CB299FBE6300107884 /* Preview Assets.xcassets */; };
+		F8E4B7D4299FBEF800107884 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8E4B7D2299FBEF800107884 /* Main.xcdatamodeld */; };
+		F8E4B7D6299FC13000107884 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4B7D5299FC12F00107884 /* DataController.swift */; };
+		F8E4B7D929A391EF00107884 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4B7D829A391EF00107884 /* SidebarView.swift */; };
+		F8E4B7DB29A3920500107884 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E4B7DA29A3920500107884 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F8A6916B29A397BC006B82B1 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		F8E4B7C0299FBE6200107884 /* UltimatePortifolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePortifolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E4B7C3299FBE6200107884 /* UltimatePortifolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePortifolioApp.swift; sourceTree = "<group>"; };
 		F8E4B7C5299FBE6200107884 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8E4B7C7299FBE6300107884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8E4B7C9299FBE6300107884 /* UltimatePortifolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UltimatePortifolio.entitlements; sourceTree = "<group>"; };
 		F8E4B7CB299FBE6300107884 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8E4B7D3299FBEF800107884 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		F8E4B7D5299FC12F00107884 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		F8E4B7D729A0C14800107884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F8E4B7D829A391EF00107884 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		F8E4B7DA29A3920500107884 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +63,17 @@
 		F8E4B7C2299FBE6200107884 /* UltimatePortifolio */ = {
 			isa = PBXGroup;
 			children = (
+				F8E4B7D729A0C14800107884 /* Info.plist */,
 				F8E4B7C3299FBE6200107884 /* UltimatePortifolioApp.swift */,
+				F8E4B7D829A391EF00107884 /* SidebarView.swift */,
 				F8E4B7C5299FBE6200107884 /* ContentView.swift */,
+				F8E4B7DA29A3920500107884 /* DetailView.swift */,
+				F8E4B7D5299FC12F00107884 /* DataController.swift */,
+				F8E4B7D2299FBEF800107884 /* Main.xcdatamodeld */,
 				F8E4B7C7299FBE6300107884 /* Assets.xcassets */,
 				F8E4B7C9299FBE6300107884 /* UltimatePortifolio.entitlements */,
 				F8E4B7CA299FBE6300107884 /* Preview Content */,
+				F8A6916B29A397BC006B82B1 /* Filter.swift */,
 			);
 			path = UltimatePortifolio;
 			sourceTree = "<group>";
@@ -139,6 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A6916C29A397BC006B82B1 /* Filter.swift in Sources */,
+				F8E4B7D4299FBEF800107884 /* Main.xcdatamodeld in Sources */,
+				F8E4B7DB29A3920500107884 /* DetailView.swift in Sources */,
+				F8E4B7D6299FC13000107884 /* DataController.swift in Sources */,
+				F8E4B7D929A391EF00107884 /* SidebarView.swift in Sources */,
 				F8E4B7C6299FBE6200107884 /* ContentView.swift in Sources */,
 				F8E4B7C4299FBE6200107884 /* UltimatePortifolioApp.swift in Sources */,
 			);
@@ -269,6 +291,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatePortifolio/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -307,6 +330,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UltimatePortifolio/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -354,6 +378,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F8E4B7D2299FBEF800107884 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F8E4B7D3299FBEF800107884 /* Main.xcdatamodel */,
+			);
+			currentVersion = F8E4B7D3299FBEF800107884 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F8E4B7B8299FBE6200107884 /* Project object */;
 }
